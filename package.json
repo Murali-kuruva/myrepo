@@ -1,0 +1,26 @@
+{
+  "name": "bookmanager",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "http-errors": "~1.6.3",
+    "mangodb": "^1.0.0",
+    "mongodb": "^3.6.0",
+    "morgan": "~1.9.1",
+    "save": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodeman": "^1.1.2",
+    "nodemon": "^2.0.4"
+  }
+}
